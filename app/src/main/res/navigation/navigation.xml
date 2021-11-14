@@ -7,8 +7,8 @@
     <fragment android:id="@+id/titleFragment" android:name="com.kosamtech.triviaapp.TitleFragment"
               android:label="Trivia Game" tools:layout="@layout/fragment_title">
         <action android:id="@+id/action_titleFragment_to_gameFragment" app:destination="@id/gameFragment"
-                app:enterAnim="@anim/fade_in" app:popEnterAnim="@anim/slide_in_left"
-                app:popExitAnim="@anim/slide_out_left" app:exitAnim="@anim/fade_out"/>
+                app:enterAnim="@anim/slide_in_left" app:popEnterAnim="@anim/slide_in_right"
+                app:popExitAnim="@anim/slide_out_left" app:exitAnim="@anim/slide_out_right"/>
     </fragment>
     <fragment android:id="@+id/gameFragment" android:name="com.kosamtech.triviaapp.GameFragment"
               android:label="Game" tools:layout="@layout/fragment_game">
